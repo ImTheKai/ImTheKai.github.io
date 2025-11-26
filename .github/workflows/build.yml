@@ -14,6 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       -  uses: actions/checkout@v4
+      -  name: Dummy Checkout   
          run: echo "Checkout Done"
 
   # this is the block that matters:
