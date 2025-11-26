@@ -13,7 +13,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      -  # do your thing ...
+      -  uses: actions/checkout@v4
+         run: echo "Checkout Done"
 
   # this is the block that matters:
   dependabot:
