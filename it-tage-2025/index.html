@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/percona.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+		    <div class="slides">
+		        <section 
+		            data-markdown="" 
+   			    data-separator="^---$"
+		            data-separator-vertical="^--$"
+		            data-separator-notes="^Note:">
+		        </section>
+		    </div>
+		</div>
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script>
+			// --- Configuration ---
+		    const germanSlides = "slides/slides.md";
+		    const englishSlides = "slides/slides-eng.md";
+
+		    // 1. Check URL parameters (e.g., ?lang=en or ?lang=de)
+		    const urlParams = new URLSearchParams(window.location.search);
+		    const forcedLang = urlParams.get('lang');
+
+		    // 2. Check Browser Language
+		    const browserLang = navigator.language || navigator.userLanguage;
+
+		    // 3. Determine Preference (URL overrides Browser)
+		    const langToCheck = forcedLang || browserLang;
+
+		    // 4. Select File (Default is English)
+		    let targetFile = englishSlides;
+
+		    // If language starts with "de" (de, de-DE, de-AT, etc.), use German
+		    if (langToCheck && langToCheck.toLowerCase().startsWith("de")) {
+		        targetFile = germanSlides;
+		    }
+
+		    // 5. Inject the filename
+		    console.log("Detected language:", langToCheck, "| Loading:", targetFile);
+		    document.querySelector("section[data-markdown]").setAttribute("data-markdown", targetFile);
+		</script>
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+				// Keep slides at a fixed 16:9 base size and avoid upscaling on large screens.
+				// This keeps long text blocks from being blown up and overflowing.
+				width: 1920,
+				height: 1080,
+				maxScale: 1,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
