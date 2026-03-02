@@ -13,8 +13,6 @@
  * I worked on a variaty of open source projects, including Ceph and the Linux Kernel at SUSE.
  * I'm a licensed handball coach for over 20y as well as an agility and movement coach for kids
 
-* This talk will be about my personal journey of getting into the Postgres ecosystem
-
 ---
 ### I joined the Postgres fun in 2022
 
@@ -33,6 +31,10 @@
 <img src="img/postgres-mailinglists.png" style="background:none; border:none; box-shadow:none;">
 
 --
+### There are....54 active ML's!?
+<img src="img/overview-mailinglists.png" style="background:none; border:none; box-shadow:none;">
+
+--
 ### This is a joke, right?
 <img src="img/unread-emails.png" width="70%" height="70%" style="background:none; border:none; box-shadow:none;">
 
@@ -48,7 +50,7 @@
 
 * `pgsql-hackers` - where PostgreSQL is actually built
 * `pgsql-general`, `pgsql-docs`, `pgsql-bugs`
-* **Almost 30 years of institutional knowledge** living in your inbox (yes since 1996)
+* **Almost 30 years of institutional knowledge** living in your inbox (yes since 1997)
 
 > *"If it wasn't on -hackers, it didn't happen."*
 
@@ -106,6 +108,7 @@ Introducing [Hackorum](https://hackorum.dev)
     <li>Team Support</li>
     <li>Stats and Insights</li>
     <li>Import of read status and tags via CSV</li>
+    <li>Mobile support</li>
   </ul>
 </section>
 
@@ -191,6 +194,9 @@ There is a massive difference between a "working demo" and a UI that actually ha
 **kai.wagner@percona.com** · [github.com/hackorum-dev/hackorum](https://github.com/hackorum-dev/hackorum)
 
 *Slides: [https://imthekai.github.io/pgmeetup-berlin-march-2026/](https://imthekai.github.io/pgmeetup-berlin-march-2026/)*
+
+---
+<section><img src="img/pgconf_de_2026_final.png" width="40%" height="40%" style="background:none; border:none; box-shadow:none;"><br> April 21-22 in Essen, Germany</section>
 
 ---
 <section id="backup-slides"></section>
