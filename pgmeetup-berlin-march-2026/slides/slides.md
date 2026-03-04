@@ -95,38 +95,34 @@ Introducing [Hackorum](https://hackorum.dev)
 * **Forum-style UX** on top of the mailing lists
 
 --
-<section data-transition="slide">
-  <h3>Main features</h3>
-  <br>
-  <ul>
-    <li>Visualized complex conversations without losing your mind</li>
-    <li>Commitfest Integration</li>
-    <li>Contributor Profiles</li>
-    <li>Patch Management</li>
-    <li>Read Status</li>
-    <li>Starring/Tagging/Mentions/Notifications</li>
-    <li>Team Support</li>
-    <li>Stats and Insights</li>
-    <li>Import of read status and tags via CSV</li>
-    <li>Mobile support</li>
-  </ul>
-</section>
+<!-- .slide: data-transition="slide" -->
+<h3>Main features</h3>
+<br>
+<ul>
+  <li>Visualized complex conversations without losing your mind</li>
+  <li>Commitfest Integration</li>
+  <li>Contributor Profiles</li>
+  <li>Patch Management</li>
+  <li>Read Status</li>
+  <li>Starring/Tagging/Mentions/Notifications</li>
+  <li>Team Support</li>
+  <li>Stats and Insights</li>
+  <li>Import of read status and tags via CSV</li>
+  <li>Mobile support</li>
+</ul>
 
 <br><br>
 
-<section data-transition="fade-in fade-out">
-  🔴 LIVE DEMO of <a href="https://hackorum.dev" target="_blank">hackorum.dev</a>
-</section>
+<!-- .slide: data-transition="fade-in fade-out" -->
+🔴 LIVE DEMO of <a href="https://hackorum.dev" target="_blank">hackorum.dev</a>
 
 ---
 
-<section>
-  Did you have network issues? Click here!
+Did you have network issues? Click here!
 
-  <a href="#/backup-slides">Backup Slides</a>
+<a href="#/backup-slides">Backup Slides</a>
 
-  ... otherwise we can go on :-)
-</section>
+... otherwise we can go on :-)
 
 ---
 
@@ -196,10 +192,10 @@ There is a massive difference between a "working demo" and a UI that actually ha
 *Slides: [https://imthekai.github.io/pgmeetup-berlin-march-2026/](https://imthekai.github.io/pgmeetup-berlin-march-2026/)*
 
 ---
-<section><img src="img/pgconf_de_2026_final.png" width="40%" height="40%" style="background:none; border:none; box-shadow:none;"><br> April 21-22 in Essen, Germany</section>
+<img src="img/pgconf_de_2026_final.png" width="40%" height="40%" style="background:none; border:none; box-shadow:none;"><br> April 21-22 in Essen, Germany
 
 ---
-<section id="backup-slides"></section>
+<div id="backup-slides"></div>
 <br><br><br><br><br><br>
 
 # Backup Slides :-)
@@ -427,4 +423,3 @@ There is a massive difference between a "working demo" and a UI that actually ha
 **kai.wagner@percona.com** · [github.com/hackorum-dev/hackorum](https://github.com/hackorum-dev/hackorum)
 
 *Slides: [https://imthekai.github.io/pgmeetup-berlin-march-2026/](https://imthekai.github.io/pgmeetup-berlin-march-2026/)*
-
