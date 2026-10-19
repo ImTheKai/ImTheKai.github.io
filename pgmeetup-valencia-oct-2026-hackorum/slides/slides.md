@@ -278,7 +278,7 @@ Note:
 * has:patch, unread:me, from:committer, commitfest status, dates. And you can save any of them.
 --
 
-## My favourite screen in the whole product
+## A very interesting query 
 
 ```
 has:patch messages:1 first_after:6m
